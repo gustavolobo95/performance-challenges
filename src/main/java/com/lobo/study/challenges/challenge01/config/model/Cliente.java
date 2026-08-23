@@ -15,7 +15,7 @@ public class Cliente {
 
     private String nome;
 
-    @OneToMany(mappedBy = "transacoes")
+    @OneToMany(mappedBy = "cliente")
     private List<Transacao> transacoes;
 
 }

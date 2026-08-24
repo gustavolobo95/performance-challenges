@@ -20,4 +20,12 @@ public class Cliente {
     )
     private List<Transacao> transacoes;
 
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", transacoes=" + transacoes +
+                '}';
+    }
 }
